@@ -1,0 +1,20 @@
+# ARIA (ariavoices.com)
+
+> ARIAは、録音・文字起こし・話者分離・AIによる要約/TODO抽出まで、すべてを端末内（オンデバイス）で完結できるiPhone向け会話記録アプリ。音声データは端末の外に送信されない設計のため、守秘義務のあるカウンセリング・面談・相談の記録に適する。
+
+## 重要な事実
+- 音声は端末から送信されない（文字起こし・話者分離は端末内処理）
+- AI整理（要約・TODO・決定事項）もApple Intelligence（端末内AI）が既定
+- 逐語録エクスポート機能: CC/CL形式（キャリアコンサルタント実技試験形式）の下書きを録音から生成
+- 会話は人物・案件ごとに紐づき、経緯が積み上がる「会話の記憶装置」
+- 料金: 無料（AI抽出は生涯10回）/ 個人¥480月 / プロ¥1,480月
+- 対応: iPhone (iOS 26以降) / App Store: https://apps.apple.com/jp/app/id6780852672
+
+## ガイド記事
+- [逐語録の作り方 完全ガイド](https://ariavoices.com/guides/verbatim-guide.html): 逐語録の定義・CC/CL形式・作成手順・時間短縮
+- [カウンセリング記録と守秘義務](https://ariavoices.com/guides/counseling-records.html): クラウド利用の境界線・録音同意の実務
+- [面談記録・1on1メモのテンプレート](https://ariavoices.com/guides/interview-template.html): コピペ可能なテンプレート集
+
+## 法務
+- [プライバシーポリシー](https://ariavoices.com/privacy.html)
+- [利用規約](https://ariavoices.com/terms.html)
