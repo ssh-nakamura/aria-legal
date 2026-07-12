@@ -1,0 +1,24 @@
+/* ガイド記事用スタイル（style.cssの変数を継承） */
+.site-header{border-bottom:1px solid rgba(26,103,145,.12);background:rgba(255,255,255,.7);backdrop-filter:blur(8px)}
+.article{max-width:760px;margin:0 auto;padding:48px 24px 80px}
+.article .crumbs{font-size:13px;color:var(--muted,#5A7A8A);margin-bottom:18px}
+.article .crumbs a{color:var(--accent,#1A6791)}
+.article h1{font-size:clamp(26px,4.6vw,36px);line-height:1.4;letter-spacing:.01em;margin:6px 0 10px;color:var(--accent-deep,#0B2A38)}
+.article .meta{font-size:13px;color:var(--muted,#5A7A8A);margin-bottom:34px;padding-bottom:18px;border-bottom:1px solid rgba(26,103,145,.14)}
+.article h2{font-size:21px;margin:44px 0 14px;padding-left:14px;border-left:4px solid var(--accent,#1A6791);color:var(--accent-deep,#0B2A38);line-height:1.5}
+.article h3{font-size:16.5px;margin:26px 0 8px;color:var(--accent,#1A6791)}
+.article p{margin:0 0 16px}
+.article ul,.article ol{margin:0 0 18px;padding-left:26px}
+.article li{margin-bottom:8px}
+.article table{width:100%;border-collapse:collapse;font-size:14px;margin:18px 0;display:block;overflow-x:auto}
+.article th,.article td{border:1px solid rgba(26,103,145,.18);padding:10px 12px;text-align:left;min-width:90px}
+.article th{background:rgba(26,103,145,.07);color:var(--accent-deep,#0B2A38);font-weight:600}
+.article pre{background:#F0F7FB;border:1px solid rgba(26,103,145,.16);border-radius:12px;padding:18px 20px;font-size:13.5px;line-height:1.8;overflow-x:auto;margin:16px 0;font-family:"SFMono-Regular",Menlo,Consolas,monospace}
+.article a{color:var(--accent,#1A6791);text-decoration:underline;text-underline-offset:3px}
+.article .cta-box{margin-top:48px;padding:22px 26px;background:linear-gradient(135deg,#EAF4F9,#D5EAF3);border-radius:16px;font-size:15px}
+.article .cta-box a{font-weight:700}
+.guide-list{list-style:none;padding:0}
+.guide-list li{margin:0 0 14px;padding:18px 22px;background:#fff;border:1px solid rgba(26,103,145,.14);border-radius:14px}
+.guide-list li a{font-weight:600;text-decoration:none;font-size:16px}
+.guide-list li p{margin:6px 0 0;font-size:13.5px;color:var(--muted,#5A7A8A)}
+@media(max-width:640px){.article{padding:32px 18px 60px}}
